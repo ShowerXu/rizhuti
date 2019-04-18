@@ -1,0 +1,66 @@
+body,html {
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background: #202935;
+    min-width: 0;
+    color: #444;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 13px;
+    line-height: 1.4em;
+    background-image: url(../../img/login-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+#login {
+    width: 320px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+
+
+.login h1 a {
+    color: #444;
+    max-height: 46px;
+    font-size: 20px;
+    line-height: 1.3em;
+    margin: 0 auto 25px;
+    padding: 0;
+    width: 84px;
+    text-indent: -9999px;
+    outline: 0;
+    display: block;
+}
+
+
+.login #backtoblog a:focus, .login #nav a:focus, .login h1 a:focus {
+    color: unset;
+    box-shadow: unset;
+}
+
+
+.login form {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 26px 24px 46px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.13);
+    border-radius: 4px;
+}
+
+
+.login #nav {
+    margin: 24px 0 0;
+    padding: 0;
+}
+
+.login #backtoblog, .login #nav {
+    font-size: 13px;
+    padding: 0 ;
+}
